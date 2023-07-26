@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  width: min(100% - 4rem, 40rem);
+  margin-inline: auto;
+}
+
+#body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin-block: 40px;
+  align-items: center;
+}
+
+img {
+  width: 100%;
+  border-radius: 30px;
+}
+
+footer {
+  text-align: center;
+}
